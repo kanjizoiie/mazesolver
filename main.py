@@ -1,7 +1,7 @@
-import pygame
 import maze
+import pygame
 
-class Main():
+class GameLoop():
     # General settings
     screen_width = 800
     screen_height = 600
@@ -49,4 +49,4 @@ class Main():
             self.postupdate()
         self.close()
 
-main = Main()
+window = GameLoop()
