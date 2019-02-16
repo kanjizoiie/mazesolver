@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Python: Run Main",
+            "type": "python",
+            "request": "launch",
+            "program": "${cwd}/main.py",
+            "console": "integratedTerminal"
+        },
+        {
             "name": "Python: Current File (Integrated Terminal)",
             "type": "python",
             "request": "launch",

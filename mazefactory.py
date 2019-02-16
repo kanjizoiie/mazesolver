@@ -8,3 +8,8 @@ class MazeFactory():
 
     def generateBFS(self):
         pass
+    
+    def generatePRIM(self):
+        pass
+    
+    def generateKIRCH(self)
